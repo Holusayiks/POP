@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\Root\Desktop\POP\2\ADA2\default.gpr
+20230427025830 574d463149d3d1309d4b4804212e7ac7
+[BOUND OBJECT FILES]
+C:\Users\Root\Desktop\POP\2\ADA2\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Root\Desktop\POP\2\ADA2\obj\
+-LC:\Users\Root\Desktop\POP\2\ADA2\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads

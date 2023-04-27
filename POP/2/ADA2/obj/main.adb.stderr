@@ -1,0 +1,1 @@
+main.adb:24:14: warning: "min" may be referenced before it has a value [enabled by default]

@@ -1,0 +1,82 @@
+V "GNAT Lib v2021"
+M P W=b
+A -O2
+A -gnatA
+A -g
+A -gnatc
+A -mtune=generic
+A -march=x86-64
+P NO FX
+
+RN
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_LONG_LONG_INTEGERS
+RV NO_RELATIVE_DELAY
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV MAX_TASK_ENTRIES=1
+RV MAX_TASKS=1+
+
+U main%b		main.adb		320e8711 OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D main.adb		20230427002346 9cfa527c main%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [main standard 4 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 10|1r6 2r5
+X 7 a-textio.ads
+58K13*Text_IO 725e16 10|1w10 2r9
+506U14*Put_Line 10|36s7
+X 10 main.adb
+4U11*Main 4b11 98l5 98t9
+5i4 N{integer} 8r18 11r18 85r24 92r18
+7A9 isStop(duration)<integer> 41r28 45r16 49r30 87r15
+10A9 BoolArr(boolean)<integer> 12r14
+12a4 CanStop{10A9} 13r20 34r20 78m10
+17T15 MyThread 19l8 19e16 21b14 28m10 38l8 38t16 85r30
+18Y13 Start 18>19 27b14 29l11 29t16 93s16
+18i19 Id{integer} 28r25
+22i7 Sum{long_long_integer} 32m10 32r17 36r43
+23i7 Id{integer} 28m19 34r28 36r23
+24i7 Step{long_long_integer} 33m10 33r16 36r60
+27i21 Id{integer}
+40T14 BreakThread 42l8 42e19 44b14 50m10 80l8 80t19 84r12
+41Y13 Start 41>19 49b14 51l11 51t16 90s10
+41a19 Timers{7A9} 50r32
+45a7 Timers{7A9} 50m22 53r16 55r19 56r16 57r23 63r19 64r16 65r30 66r23 71r19
+. 72r16 73m16 73r30
+46o7 Min{duration} 57m16 65r24 66m16 73r43 77r16
+47i7 MinIndex{integer} 58m16 67m16 78r19
+49a21 Timers{7A9}
+53i11 I{integer}
+55i14 J{integer} 56r24 57r31 58r28
+63i14 J{integer} 64r24 65r38 66r31 67r28
+71i14 J{integer} 72r24 73r24 73r38
+84t4 Break{40T14} 90r4
+85a4 Tasks(17T15) 93r7
+87a4 Stop_Dur{7A9} 90r16
+92i8 I{integer} 93r13 93r22
+
