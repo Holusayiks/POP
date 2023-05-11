@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\Root\Desktop\POP-thirdLab-ada-master (1)\POP-thirdLab-ada-master\pop.gpr
+20230508172700 95af6d09881cee2367c7d3b8e4cbf0e2
+[BOUND OBJECT FILES]
+C:\Users\Root\Desktop\POP-thirdLab-ada-master (1)\POP-thirdLab-ada-master\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Root\Desktop\POP-thirdLab-ada-master (1)\POP-thirdLab-ada-master\obj\
+-LC:\Users\Root\Desktop\POP-thirdLab-ada-master (1)\POP-thirdLab-ada-master\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads
